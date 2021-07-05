@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:id="@+id/relativeLayout"
+    android:background="@drawable/gradient_list">
+
+    <Button
+        android:id="@+id/mieripe"
+        android:layout_width="124dp"
+        android:layout_height="86dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="143dp"
+        android:layout_marginTop="435dp"
+        android:layout_marginEnd="142dp"
+        android:layout_marginBottom="210dp"
+        android:text="Le mie ripetizioni" />
+
+    <Button
+        android:id="@+id/catal_ripe"
+        android:layout_width="124dp"
+        android:layout_height="86dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="143dp"
+        android:layout_marginTop="256dp"
+        android:layout_marginEnd="142dp"
+        android:layout_marginBottom="389dp"
+        android:text="Catalogo ripetizioni" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="113dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="269dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="647dp"
+        android:text="Logout" />
+
+</RelativeLayout>

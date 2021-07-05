@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textViewMat"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text=""
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/textViewProva"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text=""
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/textViewMateria"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text=""
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/textViewGiorno"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text=""
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/textViewOrarioIn"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text=""
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/textViewStato"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text=""
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+    <Button
+        android:id="@+id/buttonConferma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+
+</LinearLayout>
